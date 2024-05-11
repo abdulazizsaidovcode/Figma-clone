@@ -22,7 +22,7 @@ const Live = () => {
     const handlePointerDown = useCallback((event: React.PointerEvent) => {
         const x = event.clientX - event.currentTarget.getBoundingClientRect().x
         const y = event.clientY - event.currentTarget.getBoundingClientRect().y
-        updateMyPresance({ cursor: { x, y } })
+        updateMyPresance({ cursor: { x, y } }) 
     }, [])
     return (
         <div
